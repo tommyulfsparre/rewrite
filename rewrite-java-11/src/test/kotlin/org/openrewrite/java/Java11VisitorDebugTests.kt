@@ -101,6 +101,10 @@ class Java11GenerateGetterTest : Java11Test, GenerateGetterTest
 
 @DebugOnly
 @ExtendWith(JavaParserResolver::class)
+class Java11HideUtilityClassConstructorTest : Java11Test, HideUtilityClassConstructorTest
+
+@DebugOnly
+@ExtendWith(JavaParserResolver::class)
 class Java11SemanticallyEqualTest : Java11Test, SemanticallyEqualTest
 
 @DebugOnly
