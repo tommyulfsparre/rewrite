@@ -66,6 +66,9 @@ abstract class JavaVisitorCompatibilityKit {
     inner class DeleteStatementTck : DeleteStatementTest
 
     @Nested
+    inner class FinalLocalVariableTck : FinalLocalVariableTest
+
+    @Nested
     inner class FindAnnotationsTck : FindAnnotationsTest
 
     @Nested

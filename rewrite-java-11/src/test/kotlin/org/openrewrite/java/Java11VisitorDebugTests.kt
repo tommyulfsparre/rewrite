@@ -77,6 +77,10 @@ class Java11DeleteStatementTest : Java11Test, DeleteStatementTest
 
 @DebugOnly
 @ExtendWith(JavaParserResolver::class)
+class Java11FinalLocalVariableTest : Java11Test, FinalLocalVariableTest
+
+@DebugOnly
+@ExtendWith(JavaParserResolver::class)
 class Java11FindAnnotationsTest : Java11Test, FindAnnotationsTest
 
 @DebugOnly
